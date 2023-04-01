@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+* {
+  margin: 0;
+}
+body {
+  font-family: Inter, sans-serif;
+}
+header {
+  background-color: #f55a5a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 3px 1px #f55a5a1a;
+}
+.header--logo {
+  height: 30px;
+  margin-right: 10px;
+}
