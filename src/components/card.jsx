@@ -3,7 +3,7 @@ export default function Card(props) {
     <>
       <div className="card">
         <img
-          src={`../../public/${props.item.imageUrl}`}
+          src={`./${props.item.imageUrl}`}
           className="card--img"
         />
         <div className="card--details">
